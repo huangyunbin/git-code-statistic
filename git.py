@@ -35,8 +35,6 @@ for line in lines:
         line1 = line.split(' ')
         #print line1
         name=line1[0]
-        if name == '\xe6\x9d\x8e\xe7\x82\xab\xe5\xbd\xac':
-            continue
         names[name]=0
         date=line1[2]
         dates.append(date)
